@@ -13,4 +13,3 @@ class DrillPressVise(MycroftSkill):
 
 def create_skill():
     return DrillPressVise()
-
