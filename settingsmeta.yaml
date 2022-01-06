@@ -1,22 +1,22 @@
 
 skillMetadata:
   sections:
-    - name: Options << Name of section
+    - name: Connect to Neo4j
       fields:
-        - name: internal_python_variable_name
+        - name: connect_url
           type: text
-          label: Setting Friendly Display Name
-          value: ""
+          label: Connect URL
+          value: "neo4j+s://c8cb96e7.databases.neo4j.io"
           placeholder: demo prompt in the input box
-    - name: Login << Name of another section
+    - name: Authentication
       fields:
-        - type: label
-          label: Just a little bit of extra info for the user to understand following settings
+        - type: text
+          label:
         - name: username
           type: text
           label: Username
-          value: ""
+          value: "neo4j"
         - name: password
           type: password
           label: Password
-          value: ""
+          value: "n96qz1OkNxmJSES7LBiVUSGbYrRa0jKIUm30NBrM1HY"
